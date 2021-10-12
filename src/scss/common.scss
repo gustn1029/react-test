@@ -1,0 +1,22 @@
+* {box-sizing: border-box;}
+.inner{max-width: 1240px; width: 100%; margin: 0 auto; padding: 0 30px;}
+
+#header {margin-bottom: 10%;
+    .inner{display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        a{color: #333; font-size: 3rem;}
+    }
+    .nav{
+        ul{
+            display: flex;
+        }
+        li{
+            a{display: block; padding: 0 10px;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
